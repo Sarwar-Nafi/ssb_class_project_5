@@ -1,0 +1,96 @@
+.navbar-brand img{
+	width: 200px;
+}
+header{
+	background: #6a052a9c;
+	background-image: url(../images/photo-1.png);
+	background-repeat: no-repeat;
+	background-size: inherit;
+	background-position: right center;
+}
+.blue{
+	background: #01FAF8;
+}
+header h1{
+    font-size: 47px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+header p{
+    font-weight: 500;
+    line-height: 1.8;
+    margin: 45px 0;
+}
+header .btn{
+	font-weight: 800;
+	display: inline-flex;
+	align-items: center;
+}
+header .btn i{
+
+font-size: 44px;
+
+color: #01faf8;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-weight: 800;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: rgb(1 250 248) !important;
+}
+
+
+@media (max-width: 1399px){
+
+}
+@media (max-width: 1199px){
+	header h1 {
+    font-size: 34px;
+    font-weight: 700;
+}
+header {
+    background-size: 650px;
+}
+}
+@media (max-width: 991px){
+header h1 {
+    font-size: 27px;
+    font-weight: 700;
+}
+header {
+    background-size: 560px;
+}
+header p {
+    line-height: 1.7;
+    margin: 30px 0;
+}
+header h1 {
+    font-size: 27px;
+    font-weight: 750;
+}
+header {
+    background-size: 510px;
+}
+.p-5 {
+    margin: -22px 0;
+}
+
+	
+}
+@media (max-width: 767px){
+	header h1 {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.7;
+}
+}
+
+
+.global-support {
+    font-family: 'Open Sans', sans-serif;
+    margin: 70px 0 120px;
+}
